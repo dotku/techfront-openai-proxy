@@ -1,17 +1,9 @@
-# OpenAI/ChatGPT 免翻墙代理
+# OpenAI/ChatGPT Proxy
 
-据很多网友反应，**OpenAI 检测到中国的 API
-访问时，会直接封号**。所以我在国外的服务器上搭建了一个代理，用于访问
-OpenAI/ChatGPT 的 API。
+据很多网友反应，**OpenAI 检测到中国的 API 访问时，会直接封号**。
+所以我在国外的服务器上搭建了一个代理，用于访问 OpenAI/ChatGPT 的 API。
 
----
-
-**⚠️⚠️⚠️⚠️⚠️⚠️\
-由于 https://closeai.deno.dev
-访问量巨大，已经超过了 Deno Deploy 的额度，本代理暂时关闭，请大家参照教程自行部署。\
-⚠️⚠️⚠️⚠️⚠️⚠️**
-
-## 自己部署
+## 部署
 
 ### Deno
 
@@ -48,7 +40,7 @@ const configuration = new Configuration({
 + openai.api_base = "https://xxxxx.deno.dev/v1"
 ```
 
-## 相关仓库
+## 参考资料
 
 - [ChatGPT 从入门到精通](https://github.com/justjavac/chatgpt)
 
