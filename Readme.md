@@ -1,7 +1,6 @@
 # OpenAI/ChatGPT Proxy
 
-据很多网友反应，**OpenAI 检测到中国的 API 访问时，会直接封号**。
-所以我在国外的服务器上搭建了一个代理，用于访问 OpenAI/ChatGPT 的 API。
+部分地方对 OpenAI 进行封锁，对于有特殊需求的朋友，可以通过本巧接代理来访问 OpenAI/ChatGPT 的 API。
 
 ## 部署
 
